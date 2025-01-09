@@ -2,6 +2,7 @@
 
 int main(){
 	int ** puzzle;
-	createPuzzle();
+	puzzle = createPuzzle();
+	printPuzzle(puzzle);
 	return 0;
 }
